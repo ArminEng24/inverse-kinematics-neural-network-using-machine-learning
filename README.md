@@ -6,7 +6,8 @@ This project implements a neural network to solve the inverse kinematics problem
 
 ## Table of Contents  
 - [Installation](#installation)  
-- [Usage](#usage)  
+- [Usage](#usage)
+- [Contributing](#contributing)  
 <a name="installation"/>
 
 
