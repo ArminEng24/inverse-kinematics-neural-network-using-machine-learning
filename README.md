@@ -7,7 +7,9 @@ This project implements a neural network to solve the inverse kinematics problem
 ## Table of Contents  
 - [Installation](#installation)  
 - [Usage](#usage)
-  -[Initialize the Arm Object](#initializethearmobject)
+  - [Initialize the Arm Object](#initializethearmobject)
+  - [Train the Neural Network](#traintheneuralnetwork)
+  - [Plot the Arm Configuration](#plotthearmconfiguration)
 - [Contributing](#contributing)  
 <a name="installation"/>
 
@@ -26,6 +28,7 @@ pip install numpy matplotlib scikit-learn
 ```
 
 ## Usage
+<a name="usage"/>
 
 ```bash
 import numpy as np
@@ -33,6 +36,8 @@ import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
 ```
 ### Initialize the Arm Object:
+<a name="initializethearmobject"/>
+
 ```bash
 class arm():
     ### the arm class contains all the methods for defining a two joints planar manipulator,
@@ -58,6 +63,8 @@ class arm():
         plt.plot(self.X, self.Y, linewidth=2.0)
 ```
 ### Train the Neural Network:
+<a name="traintheneuralnetwork"/>
+
 ```bash
 # Define hyperparameters and train the neural network
 # Example hyperparameters
@@ -83,6 +90,8 @@ test_accuracy = nn.score(X_test, y_test)
 print(f'Train Accuracy: {train_accuracy}, Test Accuracy: {test_accuracy}')
 ```
 ### Plot the arm configuration
+<a name="plotthearmconfiguration"/>
+
 ```bash
 a = arm()
 a.plot_arm()
@@ -90,4 +99,6 @@ plt.show()
 ```
 
 ## Contributing
+<a name="contributing"/>
+
 If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
