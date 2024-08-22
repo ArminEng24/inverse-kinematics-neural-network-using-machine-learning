@@ -13,7 +13,7 @@ You can install these libraries using pip:
 ```bash
 pip install numpy matplotlib scikit-learn
 
-Usage
+## Usage
 **Initialize the Arm Object:
 Python
 
