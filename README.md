@@ -7,10 +7,10 @@ This project implements a neural network to solve the inverse kinematics problem
 ## Table of Contents  
 - [Installation](#installation)  
 - [Usage](#usage)
-  - [Initialize the Arm Object](#initializethearmobject)
-  - [Train the Neural Network](#traintheneuralnetwork)
-  - [Plot the Arm Configuration](#plotthearmconfiguration)
-- [Contributing](#contributing)  
+  - [Initialize the Arm Object](#initialize-the-arm-object)
+  - [Train the Neural Network](#train-the-neural-network)
+  - [Plot the Arm Configuration](#plot-the-arm-configuration)
+- [Contributing](#contributing)
 
 
 ## Installation
@@ -33,7 +33,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
 ```
-### Initialize the Arm Object:
+### Initialize-the-Arm-Object
 
 ```bash
 class arm():
