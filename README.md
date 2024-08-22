@@ -59,7 +59,7 @@ class arm():
         plt.plot([-20,20],[0,0],'k')
         plt.plot(self.X, self.Y, linewidth=2.0)
 ```
-### Train the Neural Network:
+### Train-the-Neural-Network:
 
 ```bash
 # Define hyperparameters and train the neural network
@@ -85,7 +85,7 @@ train_accuracy = nn.score(X_train, y_train)
 test_accuracy = nn.score(X_test, y_test)
 print(f'Train Accuracy: {train_accuracy}, Test Accuracy: {test_accuracy}')
 ```
-### Plot the arm configuration
+### Plot-the-arm-configuration
 
 ```bash
 a = arm()
