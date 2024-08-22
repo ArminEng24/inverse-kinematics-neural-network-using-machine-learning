@@ -19,10 +19,13 @@ pip install numpy matplotlib scikit-learn
 
 ## Usage
 
+```bash
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
-
+```
+### Initialize the Arm Object:
+```bash
 class arm():
     ### the arm class contains all the methods for defining a two joints planar manipulator,
     ### and implement a neural network inverse kinematics solver for it
@@ -45,7 +48,9 @@ class arm():
         # 2D plot of the current arm configuration
         plt.plot([-20,20],[0,0],'k')
         plt.plot(self.X, self.Y, linewidth=2.0)
-
+```
+### Train the Neural Network:
+```bash
 # Define hyperparameters and train the neural network
 # Example hyperparameters
 hidden_layers = (100, 50)
@@ -68,8 +73,13 @@ nn.fit(X_train, y_train)
 train_accuracy = nn.score(X_train, y_train)
 test_accuracy = nn.score(X_test, y_test)
 print(f'Train Accuracy: {train_accuracy}, Test Accuracy: {test_accuracy}')
-
-# Plot the arm configuration
+```
+### Plot the arm configuration
+```bash
 a = arm()
 a.plot_arm()
 plt.show()
+```
+
+## Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
