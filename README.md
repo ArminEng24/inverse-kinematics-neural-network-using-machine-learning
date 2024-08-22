@@ -13,7 +13,8 @@ To run this project, you need to have Python and the following libraries install
 
 You can install these libraries using pip:
 
-```pip install numpy matplotlib scikit-learn```
+```bash
+pip install numpy matplotlib scikit-learn```
 
 ## Usage
 
