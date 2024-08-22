@@ -13,15 +13,13 @@ To run this project, you need to have Python and the following libraries install
 
 You can install these libraries using pip:
 
-# bash
-pip install numpy matplotlib scikit-learn
+`pip install numpy matplotlib scikit-learn`
 
 ## Usage
 
 ### Initialize the Arm Object:
 
-# python
-a = arm()
+`a = arm()`
 
 ### Train the Neural Network:
 
@@ -29,8 +27,7 @@ The code defines various hyperparameters and trains the neural network with diff
 
 ### Plot the Arm Configuration:
 
-# python
-a.plot_arm()
+`a.plot_arm()`
 
 ## Contributing
 
