@@ -28,7 +28,6 @@ pip install numpy matplotlib scikit-learn
 ```
 
 ## Usage
-<a name="usage"/>
 
 ```bash
 import numpy as np
