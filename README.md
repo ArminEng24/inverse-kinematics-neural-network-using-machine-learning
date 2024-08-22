@@ -11,7 +11,6 @@ This project implements a neural network to solve the inverse kinematics problem
   - [Train the Neural Network](#traintheneuralnetwork)
   - [Plot the Arm Configuration](#plotthearmconfiguration)
 - [Contributing](#contributing)  
-<a name="installation"/>
 
 
 ## Installation
