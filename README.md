@@ -16,6 +16,8 @@ You can install these libraries using pip:
 ```bash
 pip install numpy matplotlib scikit-learn
 
+## Usage
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
@@ -42,7 +44,7 @@ class arm():
         # 2D plot of the current arm configuration
         plt.plot([-20,20],[0,0],'k')
         plt.plot(self.X, self.Y, linewidth=2.0)
-## Usage
+
 # Define hyperparameters and train the neural network
 # Example hyperparameters
 hidden_layers = (100, 50)
