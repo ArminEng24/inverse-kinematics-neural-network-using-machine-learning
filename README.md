@@ -99,6 +99,6 @@ plt.show()
 ```
 
 ## Contributing
-<a name="contributing"/>
+`<a name="contributing"/>`
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
