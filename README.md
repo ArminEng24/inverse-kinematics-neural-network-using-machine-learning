@@ -4,6 +4,13 @@
 
 This project implements a neural network to solve the inverse kinematics problem for a two-joint planar manipulator. The neural network is trained to predict the joint angles required to achieve a desired end-effector position.
 
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+## Headers
+
 ## Installation
 
 To run this project, you need to have Python and the following libraries installed:
