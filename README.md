@@ -35,7 +35,6 @@ import matplotlib.pyplot as plt
 from sklearn.neural_network import MLPRegressor
 ```
 ### Initialize the Arm Object:
-<a name="initializethearmobject"/>
 
 ```bash
 class arm():
@@ -62,7 +61,6 @@ class arm():
         plt.plot(self.X, self.Y, linewidth=2.0)
 ```
 ### Train the Neural Network:
-<a name="traintheneuralnetwork"/>
 
 ```bash
 # Define hyperparameters and train the neural network
@@ -89,7 +87,6 @@ test_accuracy = nn.score(X_test, y_test)
 print(f'Train Accuracy: {train_accuracy}, Test Accuracy: {test_accuracy}')
 ```
 ### Plot the arm configuration
-<a name="plotthearmconfiguration"/>
 
 ```bash
 a = arm()
@@ -98,6 +95,5 @@ plt.show()
 ```
 
 ## Contributing
-`<a name="contributing"/>`
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue to discuss what you would like to change.
